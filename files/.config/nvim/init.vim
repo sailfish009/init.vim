@@ -27,16 +27,16 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/vim-easy-align'
   Plug 'wellle/targets.vim'
   Plug 'terryma/vim-multiple-cursors'
-  Plug 'repeat.vim'
+  Plug 'tpope/vim-repeat'
 " utils
   Plug 'neomake/neomake'
   Plug 'kassio/neoterm'
   Plug 'sjl/gundo.vim'
   Plug 'chrisbra/NrrwRgn'
-  Plug 'Mark--Karkat'
+  Plug 'inkarkat/vim-mark'
 " misc
   Plug 'asins/vimcdoc'
-  Plug 'ccvext.vim'
+  Plug 'vim-scripts/ccvext.vim'
   Plug 'CodeFalling/fcitx-vim-osx'
   "Plug 'lilydjwg/fcitx.vim'
   Plug 'junegunn/vim-github-dashboard'
@@ -51,7 +51,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'wesleyche/SrcExpl'
   Plug 'majutsushi/tagbar'
-  Plug 'taglist.vim'
+  Plug 'vim-scripts/taglist.vim'
   Plug 'rizzatti/dash.vim'
   Plug 'eugen0329/vim-esearch'
 " c/c++
@@ -280,7 +280,7 @@ call plug#end()
   " Neoterm
     let g:neoterm_size=20
     let g:neoterm_repl_command= 'zsh'
-    let g:neoterm_position = 'horizontal'
+    " let g:neoterm_position = 'horizontal'
     " toogle the terminal
     " kills the current job (send a <c-c>)
     nnoremap <silent> tc :call neoterm#kill()<cr>
